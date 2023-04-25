@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easyeffects Configs</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #loading-bar {
+      width: 50%;
+      height: 10px;
+      background-color: #eee;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: loading 2s forwards;
+    }
+
+    @keyframes loading {
+      0% { width: 0; }
+      100% { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading-bar"></div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = 'MainCode/index.html';
+    }, 2000);
+  </script>
+</body>
+</html>
