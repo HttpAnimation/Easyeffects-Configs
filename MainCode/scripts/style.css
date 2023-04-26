@@ -68,25 +68,36 @@ p {
 
 .button-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
-    display: inline-block;
+    display: block;
     padding: 15px 30px;
     border-radius: 50px;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
     margin-right: 20px;
+    display: block;
+    margin-bottom: 10px;
 }
 
+
 .primary {
-    background-color: #007aff;
+    background-color: #d45247;
     color: #fff;
 }
 
 .secondary {
     background-color: #3a3a3a;
+    color: #dcdcdc;
+}
+
+.SongButton {
+    background-color: #5947b7;
     color: #dcdcdc;
 }
 

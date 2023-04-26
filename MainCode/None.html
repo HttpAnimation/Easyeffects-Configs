@@ -22,29 +22,12 @@
 	</header>
 	<main>
         <!--Text-->
-		<h1>Learn more:</h1>
-		<h2>This site is a place to get and make configs for easyeffects as theres not really place to have them</h2>
-        <h3>Were to put a config: <p>Flatpak: /.var/app/com.github.wwmm.easyeffects/config/easyeffects/output</p></h3>
+		<h1>None<p>Note: this is used so you don't have to kill pluse audio to stop effects just load the file</p></h1>
 		<!--Buttons-->
 		<div class="button-container">
 			<a href="index.html" class="button primary">Home</a>
-            <button id="copyButton" class="button primary">Copy Flatpak path</button>
-			<p id="hiddenText" style="display:none;">/.var/app/com.github.wwmm.easyeffects/config/easyeffects/output</p>
-
-			<script>
-			const copyButton = document.querySelector('#copyButton');
-			const hiddenText = document.querySelector('#hiddenText');
-
-			copyButton.addEventListener('click', () => {
-				const textToCopy = hiddenText.textContent;
-				navigator.clipboard.writeText(textToCopy).then(() => {
-				console.log('Text copied to clipboard');
-				}).catch((error) => {
-				console.error('Error copying text: ', error);
-				});
-			});
-			</script>
             <a href="Donate.html" class="button secondary">Donate</a>
+            <a href="Configs/None.json" download class="button secondary">Download JSON</a>
 		</div>
 	</main>
 	<footer>
