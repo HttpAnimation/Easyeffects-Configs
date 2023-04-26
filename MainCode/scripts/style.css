@@ -101,6 +101,16 @@ p {
     color: #dcdcdc;
 }
 
+.SongSYSButton {
+    background-color: rgb(67, 51, 148);
+    color: #dcdcdc;
+}
+
+.DonateButton {
+    background-color: rgb(238, 255, 0);
+    color: #dcdcdc;
+}
+
 .primary:hover {
     background-color: #1f65ff;
 }
