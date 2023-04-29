@@ -5,6 +5,13 @@ const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
+const previewAudioButton = document.getElementById('preview-audio');
+const audioPreview = document.getElementById('audio-preview');
+
+previewAudioButton.addEventListener('click', function() {
+  audioPreview.play();
+});
+
 
 // Dark Mode Styles
 function darkMode() {

@@ -99,7 +99,12 @@ p {
 .SongButton {
     background-color: #5947b7;
     color: #dcdcdc;
-}
+  }
+  
+  .SongButton:hover {
+    background-color: #3e2f93;
+  }
+  
 
 .SongSYSButton {
     background-color: rgb(67, 51, 148);
@@ -143,3 +148,4 @@ footer {
         padding: 10px 20px;
     }
 }
+
